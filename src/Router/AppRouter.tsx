@@ -1,5 +1,9 @@
 import { FunctionComponent } from 'react';
-import { Navigate, Route, Routes } from 'react-router-dom';
+import {
+  Navigate,
+  Route,
+  Routes,
+} from 'react-router-dom';
 import { HomePage } from '../Pages/HomePage';
 import { PeoplePage } from '../Pages/PeoplePage';
 import { NotFoundPage } from '../Pages/NotFoundPage';
